@@ -1,0 +1,22 @@
+#setPassword {
+    font-family: 'myNextFont';
+    background-color: #4d4b4b;
+    width: 500px;
+    height: 250px;
+    position: relative;
+    top: 50px;
+    left: 400px;
+}
+.signup{
+    opacity:0.3;
+}
+#submit {
+    position: relative;
+    left: 200px;
+    margin-top: 20px;
+}
+
+label,h3{
+    color:white;
+    color: rgb(211, 208, 208);
+}

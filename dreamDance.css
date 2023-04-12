@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'myFirstFont';
+    src: url(lucysaidok.ttf);
+    }
+@font-face{
+    font-family: 'myNextFont';
+    src:url(Coppint_Medium.ttf);
+}
+ body{
+    background-image: linear-gradient(to bottom right, rgb(255, 254, 254), rgb(121, 120, 120));  
+    height: 680px;
+}
+#matrix_img {
+    width: 300px;
+    position: relative;
+    top: 50px;
+    -webkit-box-reflect: below 1px linear-gradient(to bottom , rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+#form{
+    font-family:'myNextFont';
+    left: 400px;
+    /* top: 50px;
+    display:none; */
+    position:absolute;
+    width:650px;
+    height:500px;
+    margin-top:20px;
+    box-shadow: 0px 8px 10px 2px grey;
+    background-color: #4d4b4b;
+    top: -550px;
+    transition: transform 0.3s;
+} 
+.login {
+    padding: 15px !important;
+}
+#loginForm{
+    font-family: 'myNextFont';
+    left: 400px;
+    top: -350px;
+    position: absolute;
+    width: 650px;
+    height: 300px;
+    margin-top: 20px;
+    padding: 20px;
+    transition: transform 0.5s;
+    box-shadow: 0px 8px 10px 2px grey;
+    background-color: #4d4b4b;
+}
+.form-group{
+    padding: 5px 20px;
+    width:100%;
+}
+span{
+    padding:20px;
+    color: rgb(211, 208, 208);
+}
+.gender{
+    margin-left:75px;
+}
+h3{
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(211, 208, 208);
+}
+label{
+    color: rgb(211, 208, 208);
+}
+.close{
+    color: grey;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    width: 30px;
+}
+.registerbtn{
+    font-family:'myNextFont';
+    margin-left: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #b1afaf;
+    color: 333333;
+    color: #333333;
+    font-weight: 400;
+    font-size: 20px;
+    position: relative;
+    border-radius: 10px;
+    left: 600px;
+    top: -40px;
+    color:#333333;
+    position: relative;
+    left: 400px;
+}
+.registerbtn:hover{
+    box-shadow:4px 4px 10px grey;
+    background-color: rgb(165, 165, 165);
+}
+.modal{
+    position:relative;
+}
+.signup{
+    margin: 14px;
+    height: 70px;
+    transition: opacity 0.3s;
+}
+#studio{
+    position: relative;
+    left: 300px;
+    top: -20px;
+    font-family: 'myFirstFont';
+    font-size:100px;
+    display:inline;
+    color:#6e6e6e;
+    text-shadow: 2px 2px 1px darkslategrey;
+
+}
+#quotes{
+    position: relative;
+    top: 15px;
+    left: 80px;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: myFirstFont;
+    width: 80%;
+}
+
+.submit{
+    position: relative;
+    left: 250px;
+    top: 30px;
+    background-color:rgb(194, 191, 191);
+    color:rgb(65, 65, 65);
+    font-size: 20px;
+    border: none;
+}
+.submit:hover{
+    background-color:rgb(167, 165, 165);
+}
+#warning {
+    display:none;
+    background-image: url(warning.png);
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    position: relative;
+    top: -25px;
+    left: 37px;
+    margin: -15px;
+}
+.required {
+    position: relative;
+    top: -55px;
+    left: 420px;
+    color: rgb(255, 92, 92);
+}
+span.spanCheck {
+    position: relative;
+    top: -10px;
+    left: 30px;
+    color: rgb(255, 92, 92);
+}
+/* .modal{
+    z-index:1;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100vw;
+    height:100vh;
+    display:none;
+    background-color:#000;
+    opacity:0.5;
+} */
+body.modal-open {
+    pointer-events: none;
+  }
+
+  body.modal-close {
+    pointer-events: auto;
+  }
+
+  body.modal-open #form {
+    pointer-events: auto;
+  }
+  
+

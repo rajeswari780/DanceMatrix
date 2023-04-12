@@ -1,0 +1,45 @@
+<div class="form-group row">
+    <label for="status" class="col-sm-3 col-form-label">status</label>
+    <div class="col-sm-9 field" >
+        <select class="form-control" value="" name="status" id="status">
+            <option value="" >Choose-an-option</option>
+            <option value="Married">Married</option>
+            <option value="UnMarried">UnMarried</option>
+            <option value="Others">Others</option>
+        </select>
+        <!-- <span class="required">*</span>  -->
+    </div>
+</div>
+<div class="form-group row">
+    <label for="address" class="col-sm-3 col-form-label">Address</label>
+    <div class="col-sm-9 field" >
+        <textarea class="form-control" col="40" row="30" name="address"  id="address"></textarea>
+    </div>
+</div>
+body{
+    background-image:url('dancer.jpg');
+    background-size: 1380px 650px;
+    background-repeat:no-repeat;
+}
+<div id="loginForm">
+    <h3>REGISTRATION FORM: BASIC DETAILS</h3><button class="close" onclick="closeModalLogin()">x</button>
+    <form id="form2">
+        <div class="form-group row">
+            <label for="email" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-9 field">
+                <input type="text" class="form-control" id="email">
+            </div>
+        </div>
+        <div class="form-group row login">
+            <label for="password" class="col-sm-3 col-form-label">Password</label>
+            <div class="col-sm-9 field">
+                <input type="password" class="form-control" id="password">
+            </div>
+        </div>
+        <div class="form-group row login">
+            <div class="col-sm-3 field">
+                <input type="submit" class="form-control submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</div>
